@@ -1,9 +1,18 @@
 import React from 'react';
-import "./Recommended.css"
+import "./Recommended.css";
+import VideoCard from "./VideoCard";
 
 function Recommended() {
     return (
-        <div className ="recommended">
+        <div className ="recommended"> 
+        <h2>Recommended</h2>
+        <div className= "Recommended__videos">
+            <VideoCard/>
+            <VideoCard/>
+            <VideoCard/>
+            <VideoCard/>
+            <VideoCard/>
+        </div>
             
         </div>
     )
