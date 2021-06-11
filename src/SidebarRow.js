@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import './SidebarRow.css';
  
-/*import TrendingIcon from '@material-ui/icons/Trending';*/
+
 
 function SidebarRow({selected,Icon,Title}) {
     

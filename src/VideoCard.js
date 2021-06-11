@@ -1,12 +1,14 @@
-import React from 'react'
+import React from 'react';
+import "./VideoCard.css";
 import Avatar from "@material-ui/core/Avatar";
 
 function VideoCard({image, title,channel, views, timestamp,channelImage}) {
     return (
         <div className ="videoCard"> 
-           <img className = "videoCard_thumb"src = {image} alt =""/>
+           <img className = "videoCard__thumb" src = {image} alt =""/>
            <div className ="video_info">
-               <Avatar className = "video_avatar"
+               <Avatar 
+                className = "video_avatar"
                 alt = {channel}
                 src = {channelImage}
 
@@ -21,7 +23,7 @@ function VideoCard({image, title,channel, views, timestamp,channelImage}) {
 
            </div>
         </div>
-    )
+    );
 }
 
 export default VideoCard;

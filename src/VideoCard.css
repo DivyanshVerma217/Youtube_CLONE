@@ -1,36 +1,35 @@
-.videoCard{
+.videoCard {
     margin-bottom: 40px;
     width: 270px;
-    
-}
-
-.videoCard_thumb{
+  }
+  
+  .videoCard__thumb {
     height: 140px;
     width: 250px;
-}
-
-
-.videoCard_info{
+  }
+  
+  .video_info {
     display: flex;
-}
-
-.videText{
+    margin-top: 10px;
+    padding-right: 30px;
+  }
+  
+  .videoText {
     margin-left: 15px;
-
-}
-
-.videText > h4{
-    font-size: 14px;
+  }
+  
+  .videoText > h4 {
+    font-size: 14px !important;
     margin-bottom: 5px;
-}
-
-.videText > p{
-    font-size: 14px;
+  }
+  
+  .videoText > p {
+    font-size: 14px !important;
     color: gray;
-}
-
-.video_avatar{
+  }
+  
+  .video_avatar{
     height: 30px !important;
     width: 30px !important;
-
-}
+  }
+  
